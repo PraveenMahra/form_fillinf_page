@@ -104,3 +104,7 @@ inputPassword.addEventListener("keyup", () => {
     lowerCase.classList.remove("red-text");
   }
 });
+
+button.addEventListener("click", function (e) {
+  e.preventDefault();
+});
