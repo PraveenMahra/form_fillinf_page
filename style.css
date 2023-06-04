@@ -1,0 +1,139 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.green-text {
+  color: green;
+}
+
+.red-text {
+  color: red;
+}
+
+.green-background {
+  background-color: green;
+}
+
+main {
+  max-width: 1300px;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.heading {
+  font-size: 35px;
+}
+
+.time-period {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  border: 1px solid grey;
+  border-left: transparent;
+  border-right: transparent;
+  padding: 25px 0;
+  width: 70%;
+  margin: 10px auto 50px auto;
+}
+
+.time {
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+}
+
+p {
+  font-size: 14px;
+}
+
+.form-group {
+  display: flex;
+  text-align: start;
+}
+
+.form-group div {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.form-group input {
+  width: 350px;
+  padding: 12px;
+  border: 1px solid grey;
+  outline: none;
+}
+
+.email-detail {
+  font-size: 10px;
+  color: red;
+}
+
+.email-detail i {
+  margin: 10px;
+  margin-left: 0;
+}
+
+.email-detail i span {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin-left: 5px;
+  font-weight: 200;
+}
+
+.password-detail {
+  font-size: 10px;
+}
+
+.password-detail i {
+  margin: 10px;
+  margin-left: 0;
+}
+
+.password-detail i span {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin-left: 5px;
+  font-weight: 200;
+}
+
+.btn {
+  margin-bottom: 10px;
+  width: 400px;
+  padding: 8px;
+  font-size: 20px;
+  border: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+}

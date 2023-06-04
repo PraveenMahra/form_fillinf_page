@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <script
+      src="https://kit.fontawesome.com/c89bebf53c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main>
+      <div class="header">
+        <h2 class="heading">- Register Here -</h2>
+        <p class="para">Join us to celebrate our biggest night of the year.</p>
+      </div>
+
+      <div class="time-period">
+        <div class="date">
+          <i class="fa-solid fa-calendar-check"></i>
+          <p>05 NOVEMBER 2022</p>
+        </div>
+        <div class="time">
+          <i class="fa-regular fa-clock"></i>
+          <p>16:00 — 23:00</p>
+        </div>
+        <div class="place">
+          <i class="fa-solid fa-location-dot"></i>
+          <p>CENTARA GRAND & BANGKOK</p>
+          <p>CONVENTION CENTRE, BANGKOK</p>
+        </div>
+      </div>
+      <form>
+        <div class="form-group">
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" />
+            <div class="email-detail hidden">
+              <i class="fa-solid fa-circle-dot">
+                <span> Please enter a valid email</span></i
+              >
+            </div>
+          </div>
+          <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" />
+            <div class="password-detail">
+              <i class="fa-solid fa-circle-dot length">
+                <span> 8 - 15 characters</span></i
+              >
+              <i class="fa-solid fa-circle-dot number">
+                <span> 1 or more numbers</span></i
+              >
+              <i class="fa-solid fa-circle-dot uppercase">
+                <span> 1 or more upper case letters</span></i
+              >
+              <i class="fa-solid fa-circle-dot lowercase">
+                <span> 1 or more lower case letters</span></i
+              >
+              <i class="fa-solid fa-circle-dot special-charcter">
+                <span>
+                  1 or more special characters (#[]()@$&*!?|,.^/\+_-)</span
+                ></i
+              >
+            </div>
+          </div>
+        </div>
+        <button class="btn">REGISTER NOW</button>
+        <p>
+          Don't have an account? <a href="#">Create one here</a> and register
+          for the event
+        </p>
+        <p>
+          Terms and Condition apply*. To read the full T&Cs, click
+          <a href="#">here</a>
+        </p>
+      </form>
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
