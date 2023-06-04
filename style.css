@@ -137,3 +137,35 @@ p {
 .btn:hover {
   cursor: pointer;
 }
+
+@media (max-width: 51rem) {
+  .form-group {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn {
+    width: 350px;
+  }
+
+  .time-period {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media (max-width: 32rem) {
+  .form-group {
+    width: 100%;
+    margin: auto;
+  }
+
+  .btn {
+    width: 80%;
+  }
+
+  .sign-up-para {
+    width: 80%;
+    margin: auto;
+  }
+}
